@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77ade41c02?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.landing-title {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: #a8e6cf;
+}
+
+.landing-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.get-started-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}

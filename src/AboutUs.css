@@ -1,0 +1,19 @@
+.about-us-container {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-us-heading {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #a8e6cf;
+}
+
+.about-us-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
